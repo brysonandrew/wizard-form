@@ -1,5 +1,10 @@
+import { Wizard } from '@components/wizard';
 import { FC } from 'react';
 
 export const Index: FC = () => {
-  return <div>basic</div>;
+  return (
+    <div>
+      <Wizard />
+    </div>
+  );
 };

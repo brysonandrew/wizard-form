@@ -1,8 +1,9 @@
 import type { OutputOptions, PreRenderedAsset, PreRenderedChunk, RollupOptions } from 'rollup';
-import { generateId, resolveSeededHash } from './utils';
+import { resolveId, resolveSeededHash } from '../../../app/resolveId';
 import { VERSION } from '../../../app';
+import { getRandomValues } from 'node:crypto';
 
-const hash = generateId(10);
+const hash = resolveId(10, getRandomValues);
 
 const VERSION_HASH = `__${VERSION.replace(/[.]/g, '_')}_${hash}__`;
 

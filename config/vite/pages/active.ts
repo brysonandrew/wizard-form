@@ -1,10 +1,5 @@
-const BASE_PAGES = [
-  'basic',
-  'wip',
-];
+const BASE_PAGES = ['wizard', 'basic', 'wip'];
 
-const ACTIVE_PAGES = [
-  ...BASE_PAGES,
-];
+const ACTIVE_PAGES = [...BASE_PAGES];
 
 export { ACTIVE_PAGES };
