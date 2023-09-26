@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@api/*": ["src/api/*"],
+      "@components/*": ["src/components/*"],
+      "@constants/*": ["src/constants/*"],
+      "@css/*": ["src/css/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@main/*": ["src/main/*"],
+      "@mocks/*": ["src/mocks/*"],
+      "@package": ["package.json"],
+      "@pages/*": ["src/pages/*"],
+      "@t/*": ["src/types/*"],
+      "@uno/*": ["config/uno/*"],
+      "@app/config": ["config/app/index.ts"],
+      "@app/colors": ["config/app/colors.ts"],
+      "@app/dimensions": ["config/app/dimensions.ts"],
+      "@utils/*": ["src/utils/*"]
+    }
+  }
+}

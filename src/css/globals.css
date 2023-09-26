@@ -1,0 +1,22 @@
+/* theme related styles are included in the preflights attribute of the uno.config.ts */
+
+html,
+body {
+  font-size: 100%;
+}
+
+body {
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+
+select {
+  -webkit-appearance: none;
+}
+
+select:focus,
+textarea:focus,
+input:focus {
+  outline: none;
+}
