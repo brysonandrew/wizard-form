@@ -1,4 +1,4 @@
-## ControlPro
+## Wizard form
 
 ### Package Manager
 
@@ -17,16 +17,6 @@ ___
   `yarn` - install dev dependencies
   `yarn build` - build app, outputs to `/dist`
 
-___
-
-### Opening build
-
-  Opening `/dist/*.html` in a browser without CORS restrictions should work. Personally I use Safari and make sure to have the following settings checked in the `Develop` tab:
-  
-![Safari Settings 1](./.readme-assets/1.png)
-![Safari Settings 2](./.readme-assets/2.png)
-
-___
 
 ### Global Dependencies
 
